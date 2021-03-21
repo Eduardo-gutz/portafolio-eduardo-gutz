@@ -1,0 +1,36 @@
+.header {
+    display: grid;
+    justify-items: center;
+    position: relative;
+    background-image: var(--gradient);
+    height: 100vh;
+    padding: 1rem 2rem 2rem;
+    place-content: center;
+}
+.header__title,
+.header__subtitle,
+.header__button {
+    grid-column: 1 / -1;
+}
+.header__social {
+    position: absolute;
+    bottom: 2rem;
+}
+.header__title {
+    display: flex;
+    min-height: 5.2rem;
+    font-size: 2.6rem;
+    margin-bottom: 1.7rem;
+    line-height: 3.4rem;
+}
+.header__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.7rem;
+}
+.name {
+    transform: translateX(2rem);
+}
+.lastname {
+    transform: translate3d(-2rem, 2.6rem, 0);
+}

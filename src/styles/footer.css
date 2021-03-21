@@ -1,0 +1,22 @@
+.footer {
+  background-image: var(--gradient);
+  padding: 2rem 10%;
+  height: 20rem;
+  align-items: center;
+  color: var(--color-text);
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 4rem;
+  grid-column: -2;
+}
+.footer__social,
+.footer__button {
+  grid-column: 1 ;
+}
+.author,
+.copyright {
+  grid-column: 1 / -1;
+}

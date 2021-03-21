@@ -1,0 +1,28 @@
+/* @import 'reset.css'; */
+@import 'container.css';
+@import 'navbar.css';
+@import 'header.css';
+@import 'titles.css';
+@import 'button.css';
+@import 'social.css';
+@import 'slider.css';
+@import 'card-proyect.css';
+@import 'proyects.css';
+@import 'exercise.css';
+@import 'modal.css';
+@import 'footer.css';
+@import 'media/768px.css';
+@import 'media/1024px.css';
+
+:root {
+  --gradient: linear-gradient(117.35deg, #303C78 0%, #1B2B66 20.52%, #161D52 43.34%, #101454 64.36%, #030234 99.97%);
+  --back-color: #04013F;
+  --color-primary: #121494;
+  --color-primary-hover: #123094;
+  --color-secondary: #2F2D61;
+  --color-text: #CACAFF;
+  --color-ligth: #D1D1EA;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}

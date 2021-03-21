@@ -1,0 +1,42 @@
+.nav-bar {
+    display: flex;
+    position: absolute;
+    background-image: var(--gradient);
+    padding: 0 1.2rem;
+    justify-content: flex-end;
+    width: 100%;
+}
+.nav-bar__burger {
+    z-index: 2;
+}
+.nav-bar__modal {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    width: 14rem;
+    height: 100vh;
+    padding: 5rem 2rem;
+
+    background-image: var(--gradient);
+    opacity: .95;
+    
+    transform: translateX(14rem);
+    transition: all .4s ease-out;
+}
+.nav-bar__item {
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+.nav-bar_pos_static {
+    position: static;
+    /* margin-bottom: 1rem; */
+}
+.nav-bar_color_transparent {
+    background-image: none;
+    background-color: transparent;
+}

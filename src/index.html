@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Eduardo Gutierrez Flores</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <button class="burger nav-bar__burger" id="burger"><img src="images/menu-ham.svg" alt=""></button>
+    <ul class="nav-bar__modal" id="nav-bar__modal">
+      <li class="nav-bar__item"><a href="/" class="nav-bar__link">Inicio</a></li>
+      <li class="nav-bar__item"><a href="#proyects" class="nav-bar__link">Proyectos</a></li>
+      <li class="nav-bar__item"><a href="#exercise" class="nav-bar__link">Ejercisios</a></li>
+      <li class="nav-bar__item"><a href="" class="nav-bar__link">Sobre Mi</a></li>
+      <li class="nav-bar__item"><a href="./templates/contacto.html" class="nav-bar__link">Contacto</a></li>
+    </ul>
+  </nav>
+  <header class="header">
+    <h1 class="header__title title"><span class="name">Eduardo</span><span class="lastname">Gutierrez</span></h1>
+    <h2 class="header__subtitle subtitle">desarrollador frontend</h2>
+    <a class="button header__button" href="#proyects">Proyectos</a>
+    <nav class="social header__social">
+      <a href="" class="social__network"><img src="./images/linkedin.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/instagram.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/github.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/facebook.svg" alt=""></a>
+    </nav>
+  </header>
+  <main class="proyect">
+    <h2 class="title proyect__title" id="proyects">Proyectos</h2>
+    <article class="card proyect__card">
+      
+      <div class="card__preview">
+        <img src="./images/faq_accordion_desktop.png" alt="" class="card__img-desktop">
+        <img src="./images/faq_accordion_ mobile.png" alt="" class="card__img-mobile">
+      </div>
+      
+      <div class="card__details">
+        <h3 class="card__title title">targeta de preguntas frecuentes</h3>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sapiente vero tenetur doloremque aperiam officiis optio impedit atque nostrum! Consequuntur!</p>
+          <a class="button card__button" href="./templates/proyect.html">ver mas</a>
+          <button class="button card__button button_secondary">proyecto en vivo</button>
+      </div>
+    </article>
+    <article class="card proyect__card">
+      <div class="card__preview">
+        <img src="./images/shorten-url_desktop.png" alt="" class="card__img-desktop">
+        <img src="./images/shorten-url_ mobile.png" alt="" class="card__img-mobile">
+      </div>
+      <div class="card__details">
+        <h3 class="card__title title">acortador de url's</h3>
+        <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptates esse similique beatae non laborum delectus veritatis numquam officiis placeat!</p>
+        <button class="button card__button">ver mas</button>
+        <button class="button card__button button_secondary">proyecto en vivo</button>
+      </div>
+    </article>
+    <article class="card proyect__card">
+      
+      <div class="card__preview">
+        <img src="./images/easybank_desktop.png" alt="" class="card__img-desktop">
+        <img src="./images/easybank_mobile.png" alt="" class="card__img-mobile">
+      </div>
+      <div class="card__details">
+        <h3 class="card__title title">landing page easbank</h3>
+        <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptates esse similique beatae non laborum delectus veritatis numquam officiis placeat!</p>
+        <button class="button card__button">ver mas</button>
+        <button class="button card__button button_secondary">proyecto en vivo</button>
+      </div>
+    </article>
+    <article class="card proyect__card">
+      
+      <div class="card__preview">
+        <img src="./images/profile_card_desktop.png" alt="" class="card__img-desktop">
+        <img src="./images/profile_card_ mobile.png" alt="" class="card__img-mobile">
+      </div>
+      <div class="card__details">
+        <h3 class="card__title title">targeta de perfil</h3>
+        <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptates esse similique beatae non laborum delectus veritatis numquam officiis placeat!</p>
+        <button class="button card__button">ver mas</button>
+        <button class="button card__button button_secondary">proyecto en vivo</button>
+      </div>
+    </article>
+    <aside class="exercise">
+      <h2 class="title exercise__title" id="exercise">Ejercisios</h2>
+      <img class="exercise__preview" name="ball" src="./images/ball.png" alt="">
+      <img class="exercise__preview" name="ellipse" src="./images/ellipse.png" alt="">
+      <img class="exercise__preview" name="ellipse2" src="./images/ellipse2.png" alt="">
+      <img class="exercise__preview" name="ball" src="./images/ball.png" alt="">
+      <div class="modal" id="modalExercise">
+        <button class="modal__close" id="closeModal">cerrar</button>
+        <iframe class="modal__exercise" src="./ball/ball.html" id="iframe"></iframe>
+      </div>
+    </aside>
+  </main>
+  <footer class="footer container">
+    <nav class="social footer__social">
+      <a href="" class="social__network"><img src="./images/linkedin.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/instagram.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/github.svg" alt=""></a>
+      <a href="" class="social__network"><img src="./images/facebook.svg" alt=""></a>
+    </nav>
+    <a class="button footer__button" href="./templates/contacto.html">Contactame</a>
+    <ul class="footer__contact">
+      <li>+51 246 168 41 74</liss=>
+      <li>eduardogutzfl@gmail.com</li>
+    </ul>
+    <p class="author">Eduardo Gutierrez</p>
+    <p class="copyright">copyrigth</p>
+  </footer>
+  <script src='./js/index.js' type="module"></script>
+</body>
+
+</html>
