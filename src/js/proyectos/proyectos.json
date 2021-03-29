@@ -1,4 +1,58 @@
-{
-  "proyectos": {
+[
+  {
+    "name": "targeta de preguntas frecuentes",
+    "images": {
+      "desktop": "faq_accordion_desktop.png",
+      "tablet": "faq_accordion_ipad.png",
+      "mobile": "faq_accordion_mobile.png"
+    },
+    "tecs": {
+      "javascript": "20%",
+      "html": "40%",
+      "css": "40%"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+  },
+  {
+    "name": "acortador de url's",
+    "images": {
+      "desktop": "shorten-url_desktop.png",
+      "tablet": "shorten-url_ipad.png",
+      "mobile": "shorten-url_mobile.png"
+    },
+    "tecs": {
+      "javascript": "20%",
+      "html": "30%",
+      "css": "50%"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+  },
+  {
+    "name": "landing page easybank",
+    "images": {
+      "desktop": "easybank_desktop.png",
+      "tablet": "easybank_ipad.png",
+      "mobile": "easybank_mobile.png"
+    },
+    "tecs": {
+      "javascript": "",
+      "html": "",
+      "css": ""
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+  },
+  {
+    "name": "targeta de perfil",
+    "images": {
+      "desktop": "profile_card_desktop.png",
+      "tablet": "profile_card_ipad.png",
+      "mobile": "profile_card_mobile.png"
+    },
+    "tecs": {
+      "javascript": "",
+      "html": "",
+      "css": ""
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
   }
-}
+]

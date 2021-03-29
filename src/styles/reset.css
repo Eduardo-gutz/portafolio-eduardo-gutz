@@ -170,6 +170,9 @@ input[type="search"] {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
+input {
+  border: none;
+}
 
 textarea {
   overflow: auto;

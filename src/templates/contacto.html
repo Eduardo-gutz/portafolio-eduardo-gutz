@@ -9,21 +9,26 @@
   <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-  <nav class="nav-bar nav-bar_pos_static">
-    <button class="burger nav-bar__burger" id="burger"><img src="../images/menu-ham.svg" alt=""></button>
+  <nav class="nav-bar nav-bar_color_transparent">
+    <button class="burger nav-bar__burger" id="burger"><img src="../images/icons/menu-ham.svg" alt=""></button>
     <ul class="nav-bar__modal" id="nav-bar__modal">
       <li class="nav-bar__item"><a href="../index.html" class="nav-bar__link">Inicio</a></li>
       <li class="nav-bar__item"><a href="../index.html#proyects" class="nav-bar__link">Proyectos</a></li>
       <li class="nav-bar__item"><a href="../index.html#exercise" class="nav-bar__link">Ejercisios</a></li>
       <li class="nav-bar__item"><a href="" class="nav-bar__link">Sobre Mi</a></li>
-      <li class="nav-bar__item"><a href="" class="nav-bar__link">Contacto</a></li>
+      <li class="nav-bar__item"><a href="./contacto.html" class="nav-bar__link">Contacto</a></li>
     </ul>
   </nav>
   <main class="contact">
+    <!-- <h1 class="title">Contactame</h1> -->
     <form class="contact__form">
-      <input class="contact__input" type="text"  required>
-      <input class="contact__input" type="email"  required>
-      <textarea class="conatact__msj" name="mensaje" cols="30" rows="10"></textarea>
+      <label for="name">Nombre:</label>
+      <input class="contact__input" type="text" id="name" autofocus required>
+      <label for="email">E-mail:</label>
+      <input class="contact__input" type="email" id="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea class="contact__input contact__input_msj" name="mensaje" id="mensaje"></textarea>
+      <button class="button" id="sendMail">Enviar</button>
     </form>
   </main>
   <script src="../js/index.js" type="module"></script>

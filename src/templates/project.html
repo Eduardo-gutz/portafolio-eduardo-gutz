@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo Gutierrez - poryecto</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <nav class="nav-bar nav-bar_pos_static">
+    <button class="burger nav-bar__burger" id="burger"><img src="../images/icons/menu-ham.svg" alt=""></button>
+    <ul class="nav-bar__modal" id="nav-bar__modal">
+      <li class="nav-bar__item"><a href="../index.html" class="nav-bar__link">Inicio</a></li>
+      <li class="nav-bar__item"><a href="../index.html#projects" class="nav-bar__link">Proyectos</a></li>
+      <li class="nav-bar__item"><a href="../index.html#exercise" class="nav-bar__link">Ejercisios</a></li>
+      <li class="nav-bar__item"><a href="" class="nav-bar__link">Sobre Mi</a></li>
+      <li class="nav-bar__item"><a href="./contacto.html" class="nav-bar__link">Contacto</a></li>
+    </ul>
+  </nav>
+  <article class="project" id="project">
+    <h1 class="title project__title"></h1>
+    <div class="card project__card_margin_top">
+      <div class="container-slider card__slider">
+        <div class="slider" id="slider">
+          <img class="slider__img" src="" alt="">
+          <img class="slider__img" src="" alt="">
+          <img class="slider__img" src="" alt="">
+        </div>
+        <!-- <div class="button-wrap">
+          <button class="button slider__button"><img src="../images/icons/desktopicons.svg" alt=""></button>
+          <button class="button slider__button"><img src="../images/icons/tableticons.svg" alt=""></button>
+          <button class="button slider__button"><img src="../images/icons/mobileicons.svg" alt=""></button>
+        </div> -->
+        <button class="slider__next" id="right"><img src="../images/icons/right.svg" alt=""></button>
+        <button class="slider__pre"  id="left"><img src="../images/icons/left.svg" alt=""></button>
+      </div>
+      <!-- <progress class="progress project__progress" max="100" value="20">60%</progress> -->
+      <!-- <progress class="progress project__progress" max="100" value="10"></progress> -->
+      <!-- <progress class="progress project__progress" max="100" value="70"></progress> -->
+      <p class="card__text"></p>
+    </div>
+    <div>
+      <button class="button button__page">1</button>
+      <button class="button button__page">2</button>
+      <button class="button button__page">3</button>
+      <button class="button button__page">4</button>
+    </div>
+  </article>
+  
+  
+  <script src='../js/index.js' type="module"></script>
+</body>
+</html>

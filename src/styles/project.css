@@ -1,4 +1,4 @@
-.proyect {
+.project {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -7,18 +7,18 @@
 
   background-color: var(--color-text);
 }
-.proyect__title {
+.project__title {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: .1rem;
   color: var(--back-color);
   margin-bottom: 1rem;
 }
-.proyect__card {
+.project__card {
   margin-bottom: 2rem;
   margin-top: 18%;
 }
-.proyect__card_margin_top {
+.project__card_margin_top {
   /* display: block; */
   margin-top: 18%;
 }

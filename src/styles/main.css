@@ -6,11 +6,12 @@
 @import 'button.css';
 @import 'social.css';
 @import 'slider.css';
-@import 'card-proyect.css';
-@import 'proyects.css';
+@import 'card-project.css';
+@import 'project.css';
 @import 'exercise.css';
 @import 'modal.css';
 @import 'footer.css';
+@import 'contact.css';
 @import 'media/768px.css';
 @import 'media/1024px.css';
 
@@ -22,6 +23,10 @@
   --color-secondary: #2F2D61;
   --color-text: #CACAFF;
   --color-ligth: #D1D1EA;
+  --shadow : 8px 8px 5px 0px rgba(1, 4, 13, 0.5);
+  --inner-shadow: 4px 4px 2px 0px rgba(1, 4, 13, 0.5) inset;
+  --inner-shadow-onfocus: 6px 6px 2px 0px rgba(1, 4, 13, 0.5) inset;
+
   font-family: 'Chakra Petch', sans-serif;
   font-size: 18px;
   scroll-behavior: smooth;

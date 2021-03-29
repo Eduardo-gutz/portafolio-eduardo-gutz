@@ -25,16 +25,16 @@
     bottom: 30%;
   }
 
-  /* proyects */
-  .proyect__card:nth-child(odd) {
+  /* projects */
+  .project__card:nth-child(odd) {
     transform: translateX(-15%);
     justify-content: flex-start;
   }
-  .proyect__card:nth-child(odd) > .card__preview{
+  .project__card:nth-child(odd) > .card__preview{
     order: 2;
     transform: translate3d(50%, 0, 0) scale(2);
   }
-  .proyect__card {
+  .project__card {
     margin-top: 1rem;
     margin-bottom: 3rem;
     height: 27rem;
