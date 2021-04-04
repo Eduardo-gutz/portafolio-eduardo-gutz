@@ -5,6 +5,7 @@
   width: 90%;
   max-width: 990px;
   background-image: var(--gradient);
+  box-shadow: var(--shadow);
   border-radius: 1rem;
   align-items: center;
   padding: 5%;
@@ -24,10 +25,12 @@
 }
 .card__img-desktop {
   width: 88%;
+  filter: drop-shadow(8px 8px 5px #01040d80);
 }
 .card__img-mobile {
   width: 24%;
   transform: translate3d(-50%, 20%, 0);
+  box-shadow: var(--shadow);
 }
 .card__details {
   max-width: 30rem;
@@ -43,14 +46,17 @@
   color: var(--color-text);
   margin-bottom: 2rem;
 }
+.card__text_size_full {
+  min-width: 90%;
+}
 .card__button {
   margin: 0 1rem 1rem;
 }
 .card__slider {
   width: 50%;
-  max-width: 22.5rem;
+  max-width: 24rem;
   height: calc(37vw / 1.7);
-  max-height: 12rem;
+  max-height: 13.5rem;
   margin-bottom: 5%;
 
   transform: translateY(-50%) scale(2);

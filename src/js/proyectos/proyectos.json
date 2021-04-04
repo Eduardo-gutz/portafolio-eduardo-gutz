@@ -1,58 +1,62 @@
 [
   {
-    "name": "targeta de preguntas frecuentes",
+    "name": "Targeta de Preguntas Frecuentes",
     "images": {
       "desktop": "faq_accordion_desktop.png",
       "tablet": "faq_accordion_ipad.png",
       "mobile": "faq_accordion_mobile.png"
     },
+    "url": "https://eduardo-gutz.github.io/faq_accordion/",
     "tecs": {
       "javascript": "20%",
       "html": "40%",
       "css": "40%"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+    "description": "El acordeon de preguntas frecuentes es un proyecto personal tomado de la pagina de <a href='frontendmentor.io'>frontend mentor</a>, el diseño y el desarrollo es adaptable a telefonos, tablets, y computadoras, usé html y css para la maquetacion y javascript para la interaccion del usuario con las preguntas.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página</br>Ocultar / mostrar la respuesta a una pregunta cuando se hace clic en la pregunta"
   },
   {
-    "name": "acortador de url's",
+    "name": "Shortly Acortador de URL",
     "images": {
       "desktop": "shorten-url_desktop.png",
       "tablet": "shorten-url_ipad.png",
       "mobile": "shorten-url_mobile.png"
     },
+    "url": "https://eduardo-gutz.github.io/shorten-url/",
     "tecs": {
       "javascript": "20%",
       "html": "30%",
       "css": "50%"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+    "description": "este es un proyecto personal en el cual hice uso de html y css para la maquetacion y javascript para la interacion del usuario, el proyecto fue tomado de la pagina de <a href='frontendmentor.io'>frontend mentor</a>, integre la <a href='app.shrtco.de'>API shrtcode</a> como pedia en el brief del proyecto y guardo los url's acortados en el navegador, el diseño es adaptable a cualquier dispositivo.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Acorta cualquier URL válida</br>Ver una lista de sus enlaces abreviados, incluso después de actualizar el navegador</br>Copie el enlace abreviado a su portapapeles con un solo clic</br>Reciba un mensaje de error cuando se envíe el form si el campo de entrada esta vacio"
   },
   {
-    "name": "landing page easybank",
+    "name": "Easybank Pagina de Inicio",
     "images": {
       "desktop": "easybank_desktop.png",
       "tablet": "easybank_ipad.png",
       "mobile": "easybank_mobile.png"
     },
+    "url": "https://eduardo-gutz.github.io/easybank/",
     "tecs": {
       "javascript": "",
       "html": "",
       "css": ""
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+    "description": "Proyecto personal tomado de <a href='frontendmentor.io'>frontend mentor</a> es un proyecto sencillo de una pagina estatica donde uso el javascript solo para la funcionalidad del boton del menu en el tamaño de pantalla movil y tablet, el resto es solo maquetacion e html y css.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página"
   },
   {
-    "name": "targeta de perfil",
+    "name": "Targeta de Perfil",
     "images": {
       "desktop": "profile_card_desktop.png",
       "tablet": "profile_card_ipad.png",
       "mobile": "profile_card_mobile.png"
     },
+    "url": "https://eduardo-gutz.github.io/profile_card_component/",
     "tecs": {
       "javascript": "",
       "html": "",
       "css": ""
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex voluptatum ducimus itaque, repellendus iusto voluptatem libero. Aliquam id animi assumenda quae accusamus numquam nisi quidem nesciunt dolores perferendis rerum amet, molestiae sapiente. Aliquid, eligendi magni odit porro architecto vero natus neque explicabo adipisci in possimus eveniet cumque repellendus perspiciatis mollitia necessitatibus sapiente tempora. Expedita corporis dolorum ea nam beatae eligendi, animi mollitia nemo fuga corrupti. Sapiente eos repellendus maiores?"
+    "description": "Es un proyecto muy sencillo, unicamente es un desarrolo en html y css 100% adaptativo a tamaños de pantalla. El desafío consiste en construir esta targeta de perfil y hacer que se parezca lo más posible al diseño."
   }
 ]

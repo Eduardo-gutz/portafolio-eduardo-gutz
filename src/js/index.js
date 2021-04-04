@@ -3,32 +3,30 @@
 // import '../styles/main.css';
 // import '../styles/navbar.css';
 // import '../styles/header.css';
-
 // import '../images/ball.png';
 // import '../images/easybank_ipad.png';
 // import '../images/easybank_desktop.png';
 // import '../images/easybank_mobile.png';
 // import '../images/ellipse.png';
 // import '../images/ellipse2.png';
-// import '../images/facebook.svg';
-// import '../images/faq_accordion_ mobile.png';
+// import '../images/icons/facebook.svg';
+// import '../images/faq_accordion_mobile.png';
 // import '../images/faq_accordion_desktop.png';
 // import '../images/faq_accordion_ipad.png';
-// import '../images/github.svg';
-// import '../images/instagram.svg';
-// import '../images/linkedin.svg';
-// import '../images/menu-ham.svg';
+// import '../images/icons/github.svg';
+// import '../images/icons/instagram.svg';
+// import '../images/icons/linkedin.svg';
+// import '../images/icons/menu-ham.svg';
 // import '../images/page_spaceX.png';
-// import '../images/profile_card_ mobile.png';
+// import '../images/profile_card_mobile.png';
 // import '../images/profile_card_desktop.png';
 // import '../images/profile_card_ipad.png';
-// import '../images/shorten-url_ mobile.png';
+// import '../images/shorten-url_mobile.png';
 // import '../images/shorten-url_desktop.png';
 // import '../images/shorten-url_ipad.png';
 
 import activeModal from './menuModal.js';
 import initProyectDetails from './preyectDetails.js';
-import sendMail from './contact.js';
 
 const name = document.location.pathname;
 

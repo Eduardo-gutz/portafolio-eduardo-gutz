@@ -22,6 +22,7 @@ export default function initProyectDetails() {
     images[2].src = `../images/${pro.images.tablet}`;
     images[0].src = `../images/${pro.images.mobile}`;
     projectCard.querySelector('.card__text').innerHTML = pro.description;
+    projectCard.querySelector('.button').href = pro.url;
 
     // projectCard.style.opacity = '';
   };

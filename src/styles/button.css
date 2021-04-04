@@ -3,7 +3,7 @@
   background-color: var(--color-primary);
   border-radius: .6rem;
   max-width: fit-content;
-  box-shadow: 5px 5px 5px rgba(1, 4, 13, 0.5);
+  box-shadow: var(--shadow-small);
   color: var(--color-text);
   transition: all .2s ease-in;
 }
@@ -12,7 +12,7 @@
 .button_active {
   background-color: var(--color-primary-hover);
   transform: scale(1.02);
-  box-shadow: 8px 8px 5px rgba(1, 4, 13, 0.5);
+  box-shadow: var(--shadow);
 }
 .button_secondary {
   background-color: var(--color-secondary);

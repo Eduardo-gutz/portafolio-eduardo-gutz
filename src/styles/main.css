@@ -24,6 +24,7 @@
   --color-text: #CACAFF;
   --color-ligth: #D1D1EA;
   --shadow : 8px 8px 5px 0px rgba(1, 4, 13, 0.5);
+  --shadow-small : 5px 5px 5px 0px rgba(1, 4, 13, 0.5);
   --inner-shadow: 4px 4px 2px 0px rgba(1, 4, 13, 0.5) inset;
   --inner-shadow-onfocus: 6px 6px 2px 0px rgba(1, 4, 13, 0.5) inset;
 
