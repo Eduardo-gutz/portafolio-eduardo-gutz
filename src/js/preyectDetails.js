@@ -52,7 +52,7 @@ export default function initProyectDetails() {
     if (button == index) {
       page.classList.add('button_active');
     }
-    page.addEventListener('click', loadPage, false);
+    page.addEventListener('click', loadPage);
   });
 
   getProyect();

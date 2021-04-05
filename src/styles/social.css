@@ -4,8 +4,11 @@
   width: 15rem;
   height: 2.7rem;
 }
-
 .social__network {
   width: 2.7rem;
   height: 2.7rem;
+  transition: transform .2s ease-in;
+}
+.social__network:hover {
+  transform: scale(1.1);
 }

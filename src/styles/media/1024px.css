@@ -67,7 +67,8 @@
   }
 
   /* footer */
-  .footer__button {
-    grid-column: 2 / -2;
+  .footer__social,
+  .footer__contact {
+    grid-row: 1;
   }
 }

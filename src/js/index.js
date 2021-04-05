@@ -29,6 +29,27 @@ import activeModal from './menuModal.js';
 import initProyectDetails from './preyectDetails.js';
 
 const name = document.location.pathname;
+const modal = document.getElementById('nav-bar__modal');
+const tooltip = document.getElementById('tooltip');
+
+function copied(event) {
+  event.preventDefault();
+
+  const aux = document.createElement('input'); // create auxiliar input for copy content
+  aux.value = this.textContent;
+  document.body.appendChild(aux); // add input hidden
+  aux.select();
+  document.execCommand('copy');
+  document.body.removeChild(aux); // delete auxiliar input
+
+  tooltip.textContent = `${this.id} copiado!`;
+  tooltip.style.display = 'block';
+  setTimeout(() => { tooltip.style.opacity = '1'; }, 10);
+  setTimeout(() => {
+    tooltip.style.opacity = '0';
+    setTimeout(() => { tooltip.style.display = 'none'; }, 300);
+}, 3000);
+}
 
 if (/index.html/.test(name)) {
   const exercises = document.querySelectorAll('.exercise__preview');
@@ -62,8 +83,9 @@ if (/project.html/.test(name)) {
 }
 if (/contacto.html/.test(name)) {
 }
-const modal = document.getElementById('nav-bar__modal');
 
 document.getElementById('burger').addEventListener('click', () => {
   activeModal(modal);
 });
+document.getElementById('number').addEventListener('click', copied);
+document.getElementById('email').addEventListener('click', copied);

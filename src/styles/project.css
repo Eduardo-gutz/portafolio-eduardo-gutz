@@ -25,6 +25,10 @@
   margin-top: 18%;
 }
 .project__card_margin_top {
-  /* display: block; */
-  margin-top: 18%;
+  margin-top: 40%;
+}
+@media screen and (min-width: 767px) {
+  .project__card_margin_top {
+    margin-top: 18%;
+  }
 }

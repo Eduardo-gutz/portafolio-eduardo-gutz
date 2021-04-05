@@ -38,6 +38,6 @@
   
   /* footer */
   .footer__contact {
-    grid-row: 1 ;
+    /* grid-row: 1 ; */
   }
 }

@@ -55,9 +55,19 @@
 .card__slider {
   width: 50%;
   max-width: 24rem;
-  height: calc(37vw / 1.7);
-  max-height: 13.5rem;
+  height: calc(45vw);
+  max-height: 14rem;
   margin-bottom: 5%;
 
   transform: translateY(-50%) scale(2);
+}
+@media screen and (min-width: 767px) {
+  .card__slider {
+    height: calc(37vw / 1.7);
+  }
+}
+@media screen and (min-width: 1023px) {
+  .card__slider {
+    height: calc(37vw / 1.9);
+  }
 }
