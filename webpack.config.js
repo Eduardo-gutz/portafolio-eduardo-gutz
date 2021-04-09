@@ -10,6 +10,9 @@ module.exports = {
     filename: 'bundled.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devServer: {
+    contentBase: './dist',
+  },
   module: {
     rules: [
       {

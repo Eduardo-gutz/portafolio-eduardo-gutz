@@ -2,9 +2,9 @@
   {
     "name": "Targeta de Preguntas Frecuentes",
     "images": {
-      "desktop": "faq_accordion_desktop.png",
-      "tablet": "faq_accordion_ipad.png",
-      "mobile": "faq_accordion_mobile.png"
+      "desktop": "faq_accordion_desktop.jpg",
+      "tablet": "faq_accordion_ipad.jpg",
+      "mobile": "faq_accordion_mobile.jpg"
     },
     "url": "https://eduardo-gutz.github.io/faq_accordion/",
     "tecs": {
@@ -17,9 +17,9 @@
   {
     "name": "Shortly Acortador de URL",
     "images": {
-      "desktop": "shorten-url_desktop.png",
-      "tablet": "shorten-url_ipad.png",
-      "mobile": "shorten-url_mobile.png"
+      "desktop": "shorten-url_desktop.jpg",
+      "tablet": "shorten-url_ipad.jpg",
+      "mobile": "shorten-url_mobile.jpg"
     },
     "url": "https://eduardo-gutz.github.io/shorten-url/",
     "tecs": {
@@ -32,9 +32,9 @@
   {
     "name": "Easybank Pagina de Inicio",
     "images": {
-      "desktop": "easybank_desktop.png",
-      "tablet": "easybank_ipad.png",
-      "mobile": "easybank_mobile.png"
+      "desktop": "easybank_desktop.jpg",
+      "tablet": "easybank_ipad.jpg",
+      "mobile": "easybank_mobile.jpg"
     },
     "url": "https://eduardo-gutz.github.io/easybank/",
     "tecs": {
@@ -47,9 +47,9 @@
   {
     "name": "Targeta de Perfil",
     "images": {
-      "desktop": "profile_card_desktop.png",
-      "tablet": "profile_card_ipad.png",
-      "mobile": "profile_card_mobile.png"
+      "desktop": "profile_card_desktop.jpg",
+      "tablet": "profile_card_ipad.jpg",
+      "mobile": "profile_card_mobile.jpg"
     },
     "url": "https://eduardo-gutz.github.io/profile_card_component/",
     "tecs": {
