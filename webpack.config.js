@@ -44,6 +44,17 @@ module.exports = {
         useShortDoctype: true,
       },
     }),
+    new HtmlWebpackPlugin({
+      filename: 'project.html',
+      template: './src/templates/project.html',
+      minify: {
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
+    }),
     new MiniCssExtractPlugin({
       filename: 'main.css',
     }),
