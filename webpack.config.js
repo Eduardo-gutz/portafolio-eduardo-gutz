@@ -58,6 +58,16 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'main.css',
     }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      filename: 'exercises/ball.html',
+      template: './src/exercises/ball.html',
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      filename: 'exercises/ellipse.html',
+      template: './src/exercises/ellipse.html',
+    }),
     // new FavinconsWebpackPlugin({
     //   logo: './src/images/favicon-32x32.png',
     //   mode: 'light',
