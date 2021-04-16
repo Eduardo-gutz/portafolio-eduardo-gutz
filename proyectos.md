@@ -101,3 +101,19 @@ conponente de targeta de perfil maquetado en html y css adaptativo a cualquier t
 ### **_descripcion:_**
 
 es un proyecto muy sencillo, unicamente es un desarrolo en html y css 100% adaptativo a tamaños de pantalla
+***
+***
+***
+***
+***
+
+# **Sobre Mi**
+
+## _tu pones las ideas yo las pongo en la web_  
+Soy un desarrollador _autodidacta_, busco aprender siempre mas sobre todo el mundo del desarrollo web, el primer lenguage que aprendi fue **Python**, pero me enamore del **frontend** y espero poder algun dia conbinar el frontend con python en backend pero por el momento y me gustaria poner en practica mis conocimientos en html css y javascript de manera profecional como desarrollador frontend, gracias a mi dedicacion por aprender nuevas cosas, cuando se me presenta un problema busco la mejor solucion, me desemvuelvo muy bien en el trabajo en equipo  
+
+soy una persona autodidacta, me gusta mucho aprender cosas nuevas y aplicarlas, me adapto muy facilmente y rapido a la circunstancias que se necesitan para algun trabajo, soy bueno para el trabajo en equipo y trato de mejorar constantemente  
+
+busco poner en practica mis conocimientos en html css y javascript de manera profecional, aprender de los desarrolladores con mas experiencia y mejorar constantemente  
+
+Soy un desarrollador _autodidacta_, me gusta mucho aprender cosas nuevas y aplicarlas, busco poner en practica mis conocimientos en html css y javascript de manera profecional, aprender de los desarrolladores con mas experiencia y mejorar constantemente

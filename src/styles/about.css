@@ -1,0 +1,11 @@
+.about {
+  background-color: var(--color-secondary);
+  padding: 2rem 5%;
+}
+.about__title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.about__text {
+  /* width: 80%; */
+}
