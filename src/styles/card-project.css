@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 90%;
   max-width: 990px;
+  height: auto;
   background-image: var(--gradient);
   box-shadow: var(--shadow);
   border-radius: 1rem;
@@ -13,7 +14,7 @@
   /* margin: 6rem auto 2rem; quitar despues provicional */
 }
 .card__title {
-  margin: 1.7rem auto;
+  margin: 1.9rem auto;
   line-height: 100%;
   font-size: 1.5rem;
 }
@@ -40,10 +41,6 @@
   align-items: center;
 }
 .card__text {
-  font-size: .9rem;
-  text-align: center;
-  line-height: 140%;
-  color: var(--color-text);
   margin-bottom: 2rem;
 }
 .card__text_size_full {

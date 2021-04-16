@@ -36,8 +36,8 @@
   }
   .project__card {
     margin-top: 1rem;
-    margin-bottom: 3rem;
-    height: 27rem;
+    margin-bottom: 4rem;
+    height: 23rem;
     transform: translateX(15%);
     /* justify-content: flex-end; */
   }

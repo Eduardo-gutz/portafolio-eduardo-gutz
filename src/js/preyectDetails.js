@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import { prev, next } from './slider.js';
 
-export default function initProyectDetails() {
+export default function initProyectDetails(json) {
   const projectCard = document.getElementById('project');
   const btnLeft = document.querySelector('#left');
   const btnRight = document.querySelector('#right');
@@ -11,31 +11,33 @@ export default function initProyectDetails() {
 
   hash = '#index=2';
 
-  const loadProject = (response) => {
+  const loadProject = () => {
     // projectCard.style.opacity = '0';
-    const pro = response[index];
+    const pro = json[index];
+    console.log(pro);
 
     projectCard.querySelector('.title').innerHTML = pro.name;
 
     const images = projectCard.querySelectorAll('.slider__img');
-    images[1].src = `../images/${pro.images.desktop}`;
-    images[2].src = `../images/${pro.images.tablet}`;
-    images[0].src = `../images/${pro.images.mobile}`;
+    images[1].src = `./images/${pro.images.desktop}`;
+    images[2].src = `./images/${pro.images.tablet}`;
+    images[0].src = `./images/${pro.images.mobile}`;
     projectCard.querySelector('.card__text').innerHTML = pro.description;
     projectCard.querySelector('.button').href = pro.url;
 
     // projectCard.style.opacity = '';
   };
   const getProyect = () => {
-    fetch('../js/proyectos/proyectos.json')
-      .then((response) => response.json())
-      .then((response) => { loadProject(response); });
+    console.log(json);
+    // fetch('../js/proyectos/proyectos.json')
+    //   .then((response) => response.json())
+    //   .then((response) => { loadProject(response); });
   };
 
   const loadPage = (event) => {
     index = event.target.textContent - 1;
     hash = `#index=${index}`;
-    getProyect();
+    loadProject();
     buttonPage.forEach((page) => {
       page.classList.remove('button_active');
     });
@@ -55,6 +57,6 @@ export default function initProyectDetails() {
     page.addEventListener('click', loadPage);
   });
 
-  getProyect();
+  loadProject();
   // setInterval(next, 8000);
 }
