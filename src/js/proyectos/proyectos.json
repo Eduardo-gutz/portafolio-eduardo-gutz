@@ -15,6 +15,21 @@
     "description": "El acordeon de preguntas frecuentes es un proyecto personal tomado de la pagina de <a href='frontendmentor.io'>frontend mentor</a>, el diseño y el desarrollo es adaptable a telefonos, tablets, y computadoras, usé html y css para la maquetacion y javascript para la interaccion del usuario con las preguntas.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página</br>Ocultar / mostrar la respuesta a una pregunta cuando se hace clic en la pregunta"
   },
   {
+    "name": "Todo app",
+    "images": {
+      "desktop": "todo-app_desktop.jpg",
+      "tablet": "todo-app_ipad.jpg",
+      "mobile": "todo-app_mobile.jpg"
+    },
+    "url": "https://eduardo-gutz.github.io/todo-app/",
+    "tecs": {
+      "javascript": "20%",
+      "html": "40%",
+      "css": "40%"
+    },
+    "description": "Tome el proyecto de frontend mentor para practicar el uso del framework vuejs.<br/><br/>El usuario puede:<br/><br/>Ver el diseño óptimo para la aplicación según el tamaño de la pantalla de su dispositivo<br/>Ver estados de hover para todos los elementos interactivos en la página<br/>Agregar nuevos todos a la lista<br/>Marcar las tareas como completas<br/>Eliminar tareas de la lista<br/>Filtrar por tareas activas / tareas completas<br/>Borrar todos las tareas completadas<br/>Alternar modo claro y oscuro"
+  },
+  {
     "name": "Shortly Acortador de URL",
     "images": {
       "desktop": "shorten-url_desktop.jpg",

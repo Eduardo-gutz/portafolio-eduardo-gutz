@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sky</title>
+  <style>
+    .frame {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      background-color: #2489ff;
+      margin: auto;
+      overflow: hidden;
+    }
+    .sun {
+      width: 7em;
+      height: 7em;
+      background-color: #ffbb00;
+      border-radius: 50%;
+      transform: translate(1.5em, 1.5em);
+    }
+    .cloud {
+      position: relative;
+      background-color: #fff;
+      margin-top: 2em;
+    }
+    .cloud::before,
+    .cloud::after {
+      content: '';
+      position: absolute;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+    .cloud::before {
+      top: -50%;
+      left: 20%;
+      width: 35%;
+      height: 100%;
+    }
+    .cloud::after {
+      top: -80%;
+      left: 40%;
+      width: 50%;
+      height: 180%;
+    }
+    .cloud1 {
+      width: 10em;
+      height: 3.05em;
+      left: 70%;
+      top: 15%;
+      border-radius: 1.5em;
+      animation: viento 40s ease-in-out infinite;
+    }
+    .cloud2 {
+      width: 6em;
+      height: 1.65em;
+      left: 40%;
+      top: -27%;
+      border-radius: .9em;
+      animation: viento 40s ease-in-out infinite;
+    }
+    .cloud3 {
+      width: 7em;
+      height: 2em;
+      left: 5%;
+      top: -25%;
+      border-radius: 1em;
+      animation: viento 40s ease-in-out infinite;
+    }
+    @keyframes viento {0%,100% {transform: translate(0%);}50% {transform: translate(-250%);}}
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="sun"></div>
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+  </div>
+</body>
+</html>

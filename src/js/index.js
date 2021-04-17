@@ -1,6 +1,7 @@
 import '../styles/main.css';
 
 import '../images/ball.png';
+import '../images/sky.png';
 import '../images/easybank_desktop.jpg';
 import '../images/easybank_ipad.jpg';
 import '../images/easybank_mobile.jpg';
@@ -14,6 +15,9 @@ import '../images/profile_card_mobile.jpg';
 import '../images/shorten-url_desktop.jpg';
 import '../images/shorten-url_ipad.jpg';
 import '../images/shorten-url_mobile.jpg';
+import '../images/todo-app_desktop.jpg';
+import '../images/todo-app_ipad.jpg';
+import '../images/todo-app_mobile.jpg';
 
 import '../images/icons/desktopicons.svg';
 import '../images/icons/facebook.svg';

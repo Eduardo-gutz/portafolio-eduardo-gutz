@@ -14,7 +14,6 @@ export default function initProyectDetails(json) {
   const loadProject = () => {
     // projectCard.style.opacity = '0';
     const pro = json[index];
-    console.log(pro);
 
     projectCard.querySelector('.title').innerHTML = pro.name;
 
@@ -27,13 +26,6 @@ export default function initProyectDetails(json) {
 
     // projectCard.style.opacity = '';
   };
-  const getProyect = () => {
-    console.log(json);
-    // fetch('../js/proyectos/proyectos.json')
-    //   .then((response) => response.json())
-    //   .then((response) => { loadProject(response); });
-  };
-
   const loadPage = (event) => {
     index = event.target.textContent - 1;
     hash = `#index=${index}`;

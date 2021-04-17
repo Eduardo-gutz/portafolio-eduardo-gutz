@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-// const FavinconsWebpackPlugin = require('favicons-webpack-plugin');
+const FavinconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: './src/js/index.js',
@@ -68,10 +68,15 @@ module.exports = {
       filename: 'exercises/ellipse.html',
       template: './src/exercises/ellipse.html',
     }),
-    // new FavinconsWebpackPlugin({
-    //   logo: './src/images/favicon-32x32.png',
-    //   mode: 'light',
-    // }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      filename: 'exercises/sky.html',
+      template: './src/exercises/sky.html',
+    }),
+    new FavinconsWebpackPlugin({
+      logo: './src/images/favicon-32x32.png',
+      mode: 'light',
+    }),
   ],
   // optimization: {
   //   minimize: true,
@@ -79,6 +84,6 @@ module.exports = {
   //     new CssMinimizerPlugin(),
   //   ],
   // },
-  // mode: 'production',
-  mode: 'development',
+  mode: 'production',
+  // mode: 'development',
 };

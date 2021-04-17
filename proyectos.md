@@ -101,6 +101,31 @@ conponente de targeta de perfil maquetado en html y css adaptativo a cualquier t
 ### **_descripcion:_**
 
 es un proyecto muy sencillo, unicamente es un desarrolo en html y css 100% adaptativo a tamaños de pantalla
+
+***
+
+## **5.- todo app**
+### **_brief:_**
+
+construir un todo app utilizando un framework como vue o react e implementarle un darkmode
+el usuario de be poder:
+
+Ver el diseño óptimo para la aplicación según el tamaño de la pantalla de su dispositivo
+Ver estados de hover para todos los elementos interactivos en la página
+Agregar nuevos todos a la lista
+Marcar todos como completos
+Eliminar todos de la lista
+Filtrar por todos / activos / todos completos
+Borrar todos los todos completados
+Alternar modo claro y oscuro
+
+### **_resumen:_**
+
+todo app con modo oscuro guarda las tareas terminadas y las faltantes y no se pierden aun despues de refrescar el navegador
+
+### **_descripcion:_**
+tome el proyecto de [ _frontend mentor_ ](frontendmentor.io) para practicar el uso del framework vuejs
+
 ***
 ***
 ***
