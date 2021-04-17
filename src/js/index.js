@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import '../styles/main.css';
 
 import '../images/ball.png';
@@ -27,7 +26,7 @@ import '../images/icons/mobileicons.svg';
 import '../images/icons/right.svg';
 import '../images/icons/tableticons.svg';
 
-import activeModal from './menuModal.js';
+import activeModal, { closeModal } from './menuModal.js';
 import initProyectDetails from './preyectDetails.js';
 
 const json = require('./proyectos/proyectos.json');
@@ -61,7 +60,7 @@ if (name === '/') {
   const btnCloseModal = document.getElementById('closeModal');
   const frameExercise = document.getElementById('iframe');
 
-  const closeModal = () => {
+  const closeModalExercise = () => {
     modalExercise.style.opacity = '0';
     setTimeout(() => {
       modalExercise.style.display = 'none';
@@ -79,15 +78,19 @@ if (name === '/') {
   exercises.forEach((ex) => ex.addEventListener('click', () => {
     viewExercise(ex.name);
   }));
-  btnCloseModal.addEventListener('click', closeModal);
+  btnCloseModal.addEventListener('click', closeModalExercise);
 }
 if (/project.html/.test(name)) {
   initProyectDetails(json);
   // setInterval(next, 8000);
 }
 
-document.getElementById('burger').addEventListener('click', () => {
+document.getElementById('burger').addEventListener('click', (event) => {
+  event.preventDefault();
   activeModal(modal);
+});
+document.addEventListener('scroll', () => {
+  closeModal(modal);
 });
 document.getElementById('Numero').addEventListener('click', copied);
 document.getElementById('E-mail').addEventListener('click', copied);
