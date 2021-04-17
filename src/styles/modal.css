@@ -7,18 +7,16 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(4, 1, 63, .8);
-  /* opacity: .8; */
   transition: opacity .5s;
 }
 .modal__exercise {
-  /* background-color: mediumblue; */
-  /* position: absolute; */
   width: 90%;
   max-width: 410px;
   height: 90%;
   max-height: 410px;
   z-index: 2;
   opacity: 1;
+  transform: scale(.9);
 }
 .modal__close {
   position: absolute;
