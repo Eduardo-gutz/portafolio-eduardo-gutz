@@ -1,6 +1,6 @@
 [
   {
-    "name": "Targeta de Preguntas Frecuentes",
+    "name": "Tarjeta de Preguntas Frecuentes",
     "images": {
       "desktop": "faq_accordion_desktop.jpg",
       "tablet": "faq_accordion_ipad.jpg",
@@ -12,7 +12,7 @@
       "html": "40%",
       "css": "40%"
     },
-    "description": "El acordeon de preguntas frecuentes es un proyecto personal tomado de la pagina de <a href='frontendmentor.io'>frontend mentor</a>, el diseño y el desarrollo es adaptable a telefonos, tablets, y computadoras, usé html y css para la maquetacion y javascript para la interaccion del usuario con las preguntas.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página</br>Ocultar / mostrar la respuesta a una pregunta cuando se hace clic en la pregunta"
+    "description": "El acordeón de preguntas frecuentes es un proyecto personal tomado de la página de <a href='frontendmentor.io'>frontend mentor</a>, el diseño y el desarrollo es adaptable a teléfonos, tablets, y computadoras, usé html y css para la maquetación y javascript para la interacción del usuario con las preguntas.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página</br>Ocultar / mostrar la respuesta a una pregunta cuando se hace clic en la pregunta"
   },
   {
     "name": "Todo app",
@@ -27,7 +27,7 @@
       "html": "40%",
       "css": "40%"
     },
-    "description": "Tome el proyecto de frontend mentor para practicar el uso del framework vuejs.<br/><br/>El usuario puede:<br/><br/>Ver el diseño óptimo para la aplicación según el tamaño de la pantalla de su dispositivo<br/>Ver estados de hover para todos los elementos interactivos en la página<br/>Agregar nuevos todos a la lista<br/>Marcar las tareas como completas<br/>Eliminar tareas de la lista<br/>Filtrar por tareas activas / tareas completas<br/>Borrar todos las tareas completadas<br/>Alternar modo claro y oscuro"
+    "description": "Tome el proyecto de frontend mentor para practicar el uso del framework vuejs.<br/><br/>El usuario puede:<br/><br/>Ver el diseño óptimo para la aplicación según el tamaño de la pantalla de su dispositivo<br/>Ver estados de hover para todos los elementos interactivos en la página<br/>Agregar nuevos todos a la lista<br/>Marcar las tareas como completas<br/>Eliminar tareas de la lista<br/>Filtrar por tareas activas / tareas completas<br/>Borrar todas las tareas completadas<br/>Alternar modo claro y oscuro"
   },
   {
     "name": "Shortly Acortador de URL",
@@ -42,7 +42,7 @@
       "html": "30%",
       "css": "50%"
     },
-    "description": "este es un proyecto personal en el cual hice uso de html y css para la maquetacion y javascript para la interacion del usuario, el proyecto fue tomado de la pagina de <a href='frontendmentor.io'>frontend mentor</a>, integre la <a href='app.shrtco.de'>API shrtcode</a> como pedia en el brief del proyecto y guardo los url's acortados en el navegador, el diseño es adaptable a cualquier dispositivo.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Acorta cualquier URL válida</br>Ver una lista de sus enlaces abreviados, incluso después de actualizar el navegador</br>Copie el enlace abreviado a su portapapeles con un solo clic</br>Reciba un mensaje de error cuando se envíe el form si el campo de entrada esta vacio"
+    "description": "este es un proyecto personal en el cual hice uso de html y css para la maquetación y javascript para la interacción del usuario, el proyecto fue tomado de la página de <a href='frontendmentor.io'>frontend mentor</a>, integre la <a href='app.shrtco.de'>API shrtcode</a> como pedía en el brief del proyecto y guardo los url's acortados en el navegador, el diseño es adaptable a cualquier dispositivo.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Acorta cualquier URL válida</br>Ver una lista de sus enlaces abreviados, incluso después de actualizar el navegador</br>Copie el enlace abreviado a su portapapeles con un solo clic</br>Reciba un mensaje de error cuando se envíe el form si el campo de entrada esta vació"
   },
   {
     "name": "Easybank Pagina de Inicio",
@@ -57,10 +57,10 @@
       "html": "",
       "css": ""
     },
-    "description": "Proyecto personal tomado de <a href='frontendmentor.io'>frontend mentor</a> es un proyecto sencillo de una pagina estatica donde uso el javascript solo para la funcionalidad del boton del menu en el tamaño de pantalla movil y tablet, el resto es solo maquetacion e html y css.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página"
+    "description": "Proyecto personal tomado de <a href='frontendmentor.io'>frontend mentor</a> es un proyecto sencillo de una página estática donde uso el javascript solo para la funcionalidad del boton del menu en el tamaño de pantalla movil y tablet, el resto es solo maquetación e html y css.</br></br>El usuario puede:</br></br>Ver el diseño óptimo para el sitio según el tamaño de pantalla de su dispositivo</br>Ver estados de 'hover' para todos los elementos interactivos en la página"
   },
   {
-    "name": "Targeta de Perfil",
+    "name": "Tarjeta de Perfil",
     "images": {
       "desktop": "profile_card_desktop.jpg",
       "tablet": "profile_card_ipad.jpg",
@@ -72,6 +72,6 @@
       "html": "",
       "css": ""
     },
-    "description": "Es un proyecto muy sencillo, unicamente es un desarrolo en html y css 100% adaptativo a tamaños de pantalla. El desafío consiste en construir esta targeta de perfil y hacer que se parezca lo más posible al diseño."
+    "description": "Es un proyecto muy sencillo, únicamente es un desarrollo en html y css 100% adaptativo a tamaños de pantalla. El desafío consiste en construir esta tarjeta de perfil y hacer que se parezca lo más posible al diseño."
   }
 ]
